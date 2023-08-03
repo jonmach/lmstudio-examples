@@ -12,25 +12,27 @@ In the LM Studio client, go to the 'Local Inference Server' <--> tab.
 
 	You should see something like the following:
 	
-	**[YYYY-MM-DD ...] [INFO] [LM STUDIO SERVER] Success! HTTP server listening on port 1234.**<br/>
-	**[YYYY-MM-DD ...] [INFO] [LM STUDIO SERVER] Supported endpoints:**<br/>
-	**[YYYY-MM-DD ...] [INFO] [LM STUDIO SERVER] ->	GET  http://localhost:1234/v1/models**<br/>
-	**[YYYY-MM-DD ...] [INFO] [LM STUDIO SERVER] ->	POST http://localhost:1234/v1/chat/completions**<br/>
-	**[YYYY-MM-DD ...] [INFO] [LM STUDIO SERVER] ->	POST http://localhost:1234/v1/completions**<br/>
-	**[YYYY-MM-DD ...] [INFO] [LM STUDIO SERVER] Logs are saved into /tmp/lmstudio-server-log.txt.**<br/>
-	**[YYYY-MM-DD ...] [INFO] [LM STUDIO SERVER] Stopping server.**<br/>
-	**[YYYY-MM-DD ...] [INFO] [LM STUDIO SERVER] Server stopped.**<br/>
+	**...[INFO] [LM STUDIO SERVER] Success! HTTP server listening on port 1234.**<br/>
+	**...[INFO] [LM STUDIO SERVER] Supported endpoints:**<br/>
+	**...[INFO] [LM STUDIO SERVER] ->	GET  http://localhost:1234/v1/models**<br/>
+	**...[INFO] [LM STUDIO SERVER] ->	POST http://localhost:1234/v1/chat/completions**<br/>
+	**...[INFO] [LM STUDIO SERVER] ->	POST http://localhost:1234/v1/completions**<br/>
+	**...[INFO] [LM STUDIO SERVER] Logs are saved into /tmp/lmstudio-server-log.txt.**<br/>
+	**...[INFO] [LM STUDIO SERVER] Stopping server.**<br/>
+	**...[INFO] [LM STUDIO SERVER] Server stopped.**<br/>
 
 4. On your command prompt, you can then run the HelloWorld.py programme, and you should see something like the following
 
-	$ python HelloWorld.py
-	
-	**Your prompt: Hello! Please give me 3 words that rhyme with 'world'**
-	
-	**LLM's response:**
-	
-	**I'm happy to help you with that! Here are three words that rhyme with "world":**
-	
-	**1. Gold**<br/>
-	**2. Bold**<br/>
-	**3. Old Old**<br/>
+```console
+        $ python HelloWorld.py
+
+        Your prompt: Hello! Please give me 3 words that rhyme with 'world'
+
+        LLM's response:
+
+        I'm happy to help you with that! Here are three words that rhyme with "world":
+
+        1. Gold
+        2. Bold
+        3. Old Old
+        ```
