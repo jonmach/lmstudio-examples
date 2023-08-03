@@ -36,3 +36,7 @@ I'm happy to help you with that! Here are three words that rhyme with "world":
 2. Bold
 3. Old Old
 ```
+
+## Note about prompt format
+Chat and Instruct models typically expect a certain prompt format (e.g. `### Instruction` and `### Response` or Llama2's `[INST]` and `[/INST]`.)
+As of this writing, LM Studio (v0.1.11 or older) requires you to preformat your `content` fields with the model's expected prompt style.
