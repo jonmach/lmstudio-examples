@@ -6,6 +6,8 @@ Contributions are welcome!
 
 1. Fork this repo and add your code in a feature branch.
 2. When you're ready, open a PR against this repo.
+   
+> If you haven't contributed to public repos before, [this StackOverflow post ](https://stackoverflow.com/questions/4384776/how-do-i-contribute-to-others-code-in-github ) might be of some use.
 
 ### Expected format
 
