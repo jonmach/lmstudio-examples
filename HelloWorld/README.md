@@ -11,7 +11,7 @@ In the LM Studio client, go to the 'Local Inference Server' <--> tab.
 3. Click on 'Start Server'
 
 	You should see something like the following:
-	
+```	
 	**...[INFO] [LM STUDIO SERVER] Success! HTTP server listening on port 1234.**<br/>
 	**...[INFO] [LM STUDIO SERVER] Supported endpoints:**<br/>
 	**...[INFO] [LM STUDIO SERVER] ->	GET  http://localhost:1234/v1/models**<br/>
@@ -20,18 +20,19 @@ In the LM Studio client, go to the 'Local Inference Server' <--> tab.
 	**...[INFO] [LM STUDIO SERVER] Logs are saved into /tmp/lmstudio-server-log.txt.**<br/>
 	**...[INFO] [LM STUDIO SERVER] Stopping server.**<br/>
 	**...[INFO] [LM STUDIO SERVER] Server stopped.**<br/>
-
+```
 4. On your command prompt, you can then run the HelloWorld.py programme, and you should see something like the following
 
 ```console
-        $ python HelloWorld.py
+$ python HelloWorld.py
 
-        Your prompt: Hello! Please give me 3 words that rhyme with 'world'
+Your prompt: Hello! Please give me 3 words that rhyme with 'world'
 
-        LLM's response:
+LLM's response:
 
-        I'm happy to help you with that! Here are three words that rhyme with "world":
+I'm happy to help you with that! Here are three words that rhyme with "world":
 
-        1. Gold
-        2. Bold
-        3. Old Old
+1. Gold
+2. Bold
+3. Old Old
+```
