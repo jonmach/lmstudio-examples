@@ -35,4 +35,3 @@ In the LM Studio client, go to the 'Local Inference Server' <--> tab.
         1. Gold
         2. Bold
         3. Old Old
-        ```
