@@ -1,4 +1,4 @@
-# Hello World
+# OpenAI Chat Completions Hello World (Python)
 
 This is a very simple Hello World program that shows how to connect to your local server and provides a sample prompt.
 
