@@ -11,15 +11,16 @@ In the LM Studio client, go to the 'Local Inference Server' <--> tab.
 3. Click on 'Start Server'
 
 	You should see something like the following:
+	
 ```	
-	**...[INFO] [LM STUDIO SERVER] Success! HTTP server listening on port 1234.**<br/>
-	**...[INFO] [LM STUDIO SERVER] Supported endpoints:**<br/>
-	**...[INFO] [LM STUDIO SERVER] ->	GET  http://localhost:1234/v1/models**<br/>
-	**...[INFO] [LM STUDIO SERVER] ->	POST http://localhost:1234/v1/chat/completions**<br/>
-	**...[INFO] [LM STUDIO SERVER] ->	POST http://localhost:1234/v1/completions**<br/>
-	**...[INFO] [LM STUDIO SERVER] Logs are saved into /tmp/lmstudio-server-log.txt.**<br/>
-	**...[INFO] [LM STUDIO SERVER] Stopping server.**<br/>
-	**...[INFO] [LM STUDIO SERVER] Server stopped.**<br/>
+	...[INFO] [LM STUDIO SERVER] Success! HTTP server listening on port 1234.
+	...[INFO] [LM STUDIO SERVER] Supported endpoints:
+	...[INFO] [LM STUDIO SERVER] ->	GET  http://localhost:1234/v1/models
+	...[INFO] [LM STUDIO SERVER] ->	POST http://localhost:1234/v1/chat/completions
+	...[INFO] [LM STUDIO SERVER] ->	POST http://localhost:1234/v1/completions
+	...[INFO] [LM STUDIO SERVER] Logs are saved into /tmp/lmstudio-server-log.txt.
+	...[INFO] [LM STUDIO SERVER] Stopping server.
+	...[INFO] [LM STUDIO SERVER] Server stopped.
 ```
 4. On your command prompt, you can then run the HelloWorld.py programme, and you should see something like the following
 
